@@ -228,10 +228,6 @@ img {
   padding-top: 1rem;
 }
 
-#article img {
-  height: 65vh;
-}
-
 #article .meta {
   display: flex;
   align-items: center;
@@ -251,10 +247,27 @@ img {
   padding: 1.7rem;
 }
 
+#article .card figcaption {
+  font-size: 1rem;
+  padding-bottom: -10rem;
+}
+
 #article p {
   font-size: 1.4rem;
   padding-right: 1rem;
   padding-top: 1rem;
+}
+
+.quote {
+  margin-top: 1rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 1em;
+  font-size: 1.4rem;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
 }
 
 #archive li {
