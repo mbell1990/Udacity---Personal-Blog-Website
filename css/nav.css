@@ -1,0 +1,60 @@
+/**************************/
+/* Navigation */
+/**************************/
+
+#main-nav {
+  background: var(--color-white);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 0.1rem 0.6rem 0 rgb(32 33 36 / 28%);
+}
+
+#main-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#main-nav h1 {
+  font-size: 3rem;
+}
+
+#main-nav a {
+  color: inherit;
+}
+
+#main-nav .social-icons a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: var(--color-grey-dark);
+  transition: all 0.3s;
+}
+
+#main-nav .social-icons a:hover {
+  color: var(--color-blue);
+}
+
+#main-nav ul {
+  display: flex;
+  align-items: center;
+  color: var(--color-blue);
+  gap: 2.5rem;
+}
+
+#main-nav ul li a {
+  font-size: 1.7rem;
+  color: var(--color-blue);
+  padding: 1.2rem;
+}
+
+#main-nav ul li a.current-page {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+#main-nav ul li a:hover {
+  background: var(--color-grey-light);
+  color: var(--color-grey-dark);
+}
