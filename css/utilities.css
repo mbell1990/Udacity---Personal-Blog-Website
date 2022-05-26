@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  column-gap: 4.4rem;
+  row-gap: 6.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary {
+  font-size: 3rem;
+}
+
+.heading-secondary {
+  font-size: 2rem;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+}
+
+.pd-1 {
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,64 @@
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 3;
+}
+
+#article {
+  padding-top: 1rem;
+}
+
+#article .meta {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+#article .meta img {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 0 1rem 0 -0.1rem;
+  border: 3px solid var(--color-blue);
+}
+
+#article .card {
+  font-size: 4rem;
+  padding: 1.7rem;
+}
+
+#article .card figcaption {
+  font-size: 1rem;
+}
+
+#article p {
+  font-size: 1.4rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.quote {
+  margin-top: 1rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 1em;
+  font-size: 1.4rem;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+
+#archive li {
+  font-size: 1.8rem;
+}
+
+#archive li a {
+  padding-top: 1rem;
+  color: var(--color-blue);
+}

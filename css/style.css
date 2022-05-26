@@ -1,4 +1,8 @@
-:root {
+@import "article.css";
+@import "utilities.css";
+@import "mobile.css" screen and (max-width: 768px);
+
+:root  {
   --color-grey-dark: #46494c;
   --color-grey-light: #dcdcdd;
   --color-blue: #1985a1;
@@ -213,7 +217,7 @@ img {
 /* Article */
 /**************************/
 
-.page-container {
+/* .page-container {
   display: grid;
   grid-template-columns: 5fr 2fr;
   margin: 2rem 0;
@@ -276,13 +280,13 @@ img {
 #archive li a {
   padding-top: 1rem;
   color: var(--color-blue);
-}
+} */
 
 /**************************/
 /* Grid System */
 /**************************/
 
-.grid {
+/* .grid {
   display: grid;
   column-gap: 4.4rem;
   row-gap: 6.6rem;
@@ -294,11 +298,11 @@ img {
 
 .grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
-}
+} */
 
 /* Utilities */
 
-.heading-primary {
+/* .heading-primary {
   font-size: 3rem;
 }
 
@@ -312,4 +316,4 @@ img {
 
 .pd-1 {
   padding-bottom: 1rem;
-}
+} */
